@@ -7,7 +7,7 @@ df_train = pd.read_excel("../datasets/Data_Train.xlsx")
 df_train.head()
 
 # Loading testing Dataset
-df_test = pd.read_excel("/content/Test_set.xlsx")
+df_test = pd.read_excel("../datasets/Test_set.xlsx")
 df_test.head()
 
 # Concatenating both the datasets for consistent feature extraction
